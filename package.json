@@ -1,0 +1,24 @@
+{
+  "name": "zookeeper",
+  "version": "1.0.0",
+  "description": "Week 11 module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matt658041/Zookeeper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Matt658041/Zookeeper/issues"
+  },
+  "homepage": "https://github.com/Matt658041/Zookeeper#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
