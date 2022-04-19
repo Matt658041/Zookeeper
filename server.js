@@ -4,6 +4,8 @@ const {animals} = require('./data/animals.json')
 const express = require ('express');
 const PORT = process.env.PORT || 3001;
 const app = express();
+
+app.use(express.static('public'));
 //parse incoming string or array data
 app.use(express.urlencoded({extend:true}));
 // parse incoming JSON data
